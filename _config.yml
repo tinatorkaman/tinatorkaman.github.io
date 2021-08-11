@@ -50,14 +50,19 @@ about_title: Who I am and What I do
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a Ph.D. student in mathematics at [Harvard University](https://www.harvard.edu), advised by [Curtis McMullen](https://people.math.harvard.edu/~ctm/).
-  My main research interests are geometry and dynamics of moduli space and hyperbolic surfaces.
-  I'm also broadly interested in Teichmüller theory, Ergodic theory and translation surfaces.
+
+  Mainly, I'm interested in hyperbolic surfaces, the geometry and dynamics of moduli spaces;
+  and more broadly, in low dimensional topology/geometry, Teichmüller theory, and Ergodic theory.
+
+  My research work involves closed geodesics and the space of geodesic currents on hyperbolic surfaces. I've been studing the intersection number and intersection points of closed geodesics.
+  Recently, I've been working on the entropy of geodesic currents. 
+
   Find my CV [here](files/ttorkaman_cv.pdf).
 
 #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Research
+  - title: Research Projects
     layout: text
     content: | # this will include new lines to allow paragraphs
 
