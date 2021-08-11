@@ -51,7 +51,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I'm a Ph.D. student in mathematics at [Harvard University](https://www.harvard.edu), advised by [Curtis McMullen](https://people.math.harvard.edu/~ctm/).
   My main research interests are geometry and dynamics of moduli space and hyperbolic surfaces.
-  I'm broadly interested in Teichmüller theory, Ergodic theory and translation surfaces.
+  I'm also broadly interested in Teichmüller theory, Ergodic theory and translation surfaces.
   Find my CV [here](files/ttorkaman_cv.pdf).
 
 #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
