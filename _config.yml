@@ -7,9 +7,10 @@ version: 2
 
 # Personal info
 name: Tina Torkaman
-title: Graduate Student
-email: torkaman@math.harvard.edu
-website: tinatorkaman.github.io
+title: Harvard Ph.D. student
+email: torkaman at math dot harvard dot edu
+
+#website: tinatorkaman.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -30,10 +31,10 @@ darkmode: true
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: tinatorkaman
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: tinatorkaman
+  #icon: fas fa-globe
+  #url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,54 +46,48 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Who I am and What I do
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I'm a Ph.D. student in mathematics at [Harvard University](https://www.harvard.edu), advised by [Curtis McMullen](https://people.math.harvard.edu/~ctm/).
+  My main research interests are geometry and dynamics of moduli space and hyperbolic surfaces.
+  I'm broadly interested in Teichmüller theory, Ergodic theory and translation surfaces.
+  Find my CV [here](files/ttorkaman_cv.pdf).
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Research
+    layout: text
+    content: | # this will include new lines to allow paragraphs
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      - Train tracks, entropy, and the halo of a measured lamination (joint with Tina Torkaman).
+
+      submitted [arxive](https://arxiv.org/abs/2105.00370)
+
+
+
+
+  - title: Teaching
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <h2>At Harvard:</h2>
+      - Multivariable Calculus
+
+        I thought math 21a in Fall 2019 and I earned a [Certificate of Distinction in Teaching](https://bokcenter.harvard.edu/teaching-awards) by [the Derek Bok Center for Teaching and Learning](https://bokcenter.harvard.edu/home) at Harvard.
+
+        I thought math 21a in spring 2021 and it was completly remote.
+      - Direct reading program(DRP)
+
+          I mentored an undergraduate student in Fall 2020 to study ergodic theory. The final project was about Szemerédi's theorem.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Harvard University
-        caption: 2017 - who knows lol
-        sub_title: PhD Mathematics
+        caption: 2017 - Present
+        sub_title: Ph.D. Mathematics
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         # description: | # this will include new lines to allow paragraphs
@@ -100,17 +95,20 @@ content:
 
         #  I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
+      - layout: left
+        title: Sharif University of Technology
+        caption: 2013 - 2017
+        sub_title:  B.Sc. Mathematics
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in mathematics some of my other interests and hobbies are:
+      - Painting
+      - Volleyball
+      - History of cinema
 
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
 
 # Footer
 footer_show_references: true
