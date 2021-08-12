@@ -13,7 +13,7 @@ email: torkaman at math dot harvard dot edu
 #website: tinatorkaman.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 # twitter_username: facespics
@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   and more broadly, in low dimensional topology/geometry, Teichmüller theory, and Ergodic theory.
 
   My research work involves closed geodesics and the space of geodesic currents on hyperbolic surfaces. I've been studing the intersection number and intersection points of closed geodesics.
-  Recently, I've been working on the entropy of geodesic currents. 
+  Recently, I've been working on the entropy of geodesic currents.
 
   Find my CV [here](files/ttorkaman_cv.pdf).
 
